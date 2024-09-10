@@ -5,17 +5,8 @@ const userModel = require('./usermodel');
 
 
 app.get('/',(req,res)=>{
-    res.send('Hello World!');
+    res.send('This is a homepage');
 });
-
-// app.get('/create', async (req , res )=>{
-//     let createduser = await userModel.create({
-//         name: 'John Doe',
-//         username:"john",
-//         email: 'johndoe@example.com'
-//     });
-//     res.send(createduser);
-// });
 
 
 app.get('/create', async (req, res) => {
